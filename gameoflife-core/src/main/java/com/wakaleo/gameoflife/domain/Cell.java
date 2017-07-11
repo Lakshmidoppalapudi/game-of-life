@@ -38,6 +38,7 @@ public enum Cell {
 
 	// Default getter
     public String getSymbol() {
+	    System.out.println("Returning Git symbol");
         return symbol;
     }
 }
